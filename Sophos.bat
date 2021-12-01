@@ -57,7 +57,7 @@ MsiExec.exe /qn /X{D29542AE-287C-42E4-AB28-3858E13C1A3E} REBOOT=ReallySuppress
 "C:\Program Files (x86)\HitmanPro.Alert\uninstall.exe" /uninstall /quiet
 "C:\Program Files\HitmanPro\HitmanPro.exe" /uninstall /quiet
 cls
-echo "Sophos yazılımı bilgisayarınızdan kaldırılmış olması lazım. Sistem Yeniden başlatılıyor... (30 saniye)"
+echo "Sophos yazilimi bilgisayarinizdan kaldirilmis olmasi lazim. Sistem Yeniden baslatiliyor... (30 saniye)"
 shutdown -r -t 30
 pause
 ::EndofTheMagic::
