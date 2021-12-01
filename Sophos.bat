@@ -1,3 +1,4 @@
+TITLE NYA Sophos Automated Uninstaller Tool
 color a
 @echo off
 cls
