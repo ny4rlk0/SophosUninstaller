@@ -1,4 +1,3 @@
-TITLE NYA SOPHOS REMOVER TOOL
 color a
 @echo off
 cls
@@ -56,8 +55,13 @@ MsiExec.exe /qn /X{D29542AE-287C-42E4-AB28-3858E13C1A3E} REBOOT=ReallySuppress
 "C:\Program Files (x86)\HitmanPro.Alert\hmpalert.exe" /uninstall /quiet
 "C:\Program Files (x86)\HitmanPro.Alert\uninstall.exe" /uninstall /quiet
 "C:\Program Files\HitmanPro\HitmanPro.exe" /uninstall /quiet
+cd c:\
+rename Sophos_Uninstall_Strings32.txt s32.bat
+rename Sophos_Uninstall_Strings64.txt s64.bat
+"C:\s64.bat"
+"C:\s32.bat"
 cls
 echo "Sophos yazilimi bilgisayarinizdan kaldirilmis olmasi lazim. Sistem Yeniden baslatiliyor... (30 saniye)"
-shutdown -r -t 30
+shutdown -r -t 45
 pause
 ::EndofTheMagic::
