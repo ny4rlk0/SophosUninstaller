@@ -61,7 +61,7 @@ rename Sophos_Uninstall_Strings64.txt s64.bat
 "C:\s64.bat"
 "C:\s32.bat"
 cls
-echo "Sophos yazilimi bilgisayarinizdan kaldirilmis olmasi lazim. Sistem Yeniden baslatiliyor... (30 saniye)"
-shutdown -r -t 45
+echo "Sophos yazilimi bilgisayarinizdan kaldirilmis olmasi lazim. Sistem Yeniden baslatiliyor... (20 dakika sonra)"
+shutdown -r -t 1200
 pause
 ::EndofTheMagic::
