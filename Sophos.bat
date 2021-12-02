@@ -62,7 +62,7 @@ rename Sophos_Uninstall_Strings64.txt s64.bat
 "C:\s64.bat"
 "C:\s32.bat"
 cls
-echo "Sophos yazilimi bilgisayarinizdan kaldirilmis olmasi lazim. Sistem Yeniden baslatiliyor... (20 dakika sonra)"
+echo "Removed Sophos from this computer. Fallback remover should have been started. System will reboot after 20 min!"
 shutdown -r -t 1200
 pause
 ::EndofTheMagic::
